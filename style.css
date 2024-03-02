@@ -1,0 +1,52 @@
+/*Cambia el tipo de letra del titulo h1*/
+body {
+    font-family: Arial, sans-serif;
+}
+/*Centra el titulo h1*/
+h1 {
+    text-align: center;
+    margin-top: 50px;/*ubicacion en la pantalla px*/
+}
+/*Agg un bloque de escritura*/
+#guess-input {
+    display: block;/*centra el bloque??*/
+    margin: 0 auto 20px;
+    padding: 10px;/*tamaño del bloque*/
+    font-size: 18px;/*ancho del bloque*/
+    width: 250px;/*largo del bloque*/
+    border: 1px solid #ccc;/*Color del borde del bloque*/
+  }
+
+  #guess-button {
+    display: block; /*Centra el boton*/
+    margin: 0 auto;
+    padding: 10px 20px;/*largo,ancho*/
+    font-size: 18px; /*tamaño del boton*/
+    background-color: #0CBABA;/*color del relleno*/
+    color: #fff;/*color de la palabra*/
+    border: none;
+    border-radius: 3px; /*redonde los bordes del boto*/
+  }
+  button:active {
+    transform: scale(0.95);
+}
+.letter {
+    border: 1px solid black;
+    padding: 3px;
+    margin: 3px;
+    min-width: 20px;
+    text-align: center;
+    display: inline-block
+}
+.row{
+    margin-bottom: 10px;
+}
+.input-area{
+    margin: 30px;
+}
+
+#guesses{
+    display: block;
+}
+
+}
